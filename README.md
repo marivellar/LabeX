@@ -1,8 +1,8 @@
 <h1 align="center"> Labex - Viagens Espaciais </h1>
 
-<h1 align="center"> Status </h1>
+<h1 align="center"> Status do Projeto </h1>
 
-<p align="center" > > Status do Projeto: Em desenvolvimento :warning: </p>
+<p align="center" > Em desenvolvimento :warning: </p>
 
 <h2 align="center"> Descrição do projeto </h2>
 
