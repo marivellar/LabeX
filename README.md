@@ -21,15 +21,11 @@
 
 <h2 align="center"> Como rodar a aplicação </h2>
 
-<p align="center"> - No terminal, clone o projeto usando: git clone https://github.com/marivellar/FutureEats.git </p>
-<p align="center"> - Entre na pasta do projeto: cd FutureEats </p>
+<p align="center"> - No terminal, clone o projeto usando: git clone https://github.com/marivellar/LabeX.git </p>
+<p align="center"> - Entre na pasta do projeto: cd LabeX </p>
 <p align="center"> - Instale as dependências: npm install </p>
 <p align="center"> - Execute a aplicação: npm run start </p>
 
-<h2 align="center"> Colaboradores </h2>
+<h2 align="center"> Colaboradora </h2>
 
 <p align="center"> - Mariana Avellar </p>
-<p align="center"> - Laécio da Conceição </p>
-<p align="center"> - Luiz Fernando Barbosa </p>
-<p align="center"> - Adriano Araújo </p>
-<p align="center"> - Emerson Nunes </p>
