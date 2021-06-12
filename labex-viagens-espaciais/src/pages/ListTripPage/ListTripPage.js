@@ -18,7 +18,6 @@ const ListTripPage = () => {
         axios.get(`${BASE_URL}/trips`)
         .then((response) => {
             setTrips(response.data.trips)
-            console.log(response.data.trips)
         })
     }, [])
 

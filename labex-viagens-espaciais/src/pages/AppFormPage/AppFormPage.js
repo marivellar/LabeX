@@ -38,6 +38,7 @@ const AppFormPage = () => {
         }
 
         axios.post(`${BASE_URL}/trips/${form.trip.id}/apply`, body)
+        alert("Inscrição realizada!")
     }
 
     return (
@@ -83,11 +84,17 @@ const AppFormPage = () => {
                 />
 
                 <Select
+                
                     value={form["trip"]}
                     placeholder={"Escolha uma viagem"}
                     onChange={onChangeInput}
                     name={"trip"}
-                />
+                    > 
+                        {trips.map((trip) => {
+                            return <option value={trip}> {trip.name} </option>
+                        })}
+                        
+                </Select>
 
                 <Button>CANDIDATAR</Button>
             </Form>
