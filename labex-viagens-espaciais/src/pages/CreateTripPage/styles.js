@@ -8,14 +8,20 @@ export const CreateTripContainer = styled.div`
 export const Form = styled.form`
     display: flex;
     flex-direction: column;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+    
 `;
 
 export const Input = styled.input`
+    height: 40px;
     text-align: center;
     border: none;
     background-color:whitesmoke;
     padding: 12px 0px;
-    text-decoration:underline gray;
+    text-decoration: none;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
 `;
 
 export const Button = styled.button`
@@ -25,4 +31,5 @@ export const Button = styled.button`
     color: white;
     font-size: 14px;
     border-radius: 10px;
+    margin-top: 20px;
 `;

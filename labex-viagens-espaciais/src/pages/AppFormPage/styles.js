@@ -13,6 +13,8 @@ export const Form = styled.form`
   flex-direction: column;
   text-align: center;
   justify-content: center;
+  border: solid 1px darkgrey;
+  border-radius: 10px;
 `;
 
 export const Input = styled.input`
@@ -21,10 +23,12 @@ export const Input = styled.input`
     background-color: whitesmoke;
     text-align:center;
     font-size: 14px;
+    border: solid 1px darkgrey;
+    border-radius: 10px;
 `;
 
 export const Select = styled.select`
-    background-color: whitesmoke;
+    background-color: whitesmoke; 
 `;
 
 export const Button = styled.button`
@@ -37,4 +41,5 @@ export const Button = styled.button`
   font-size: 16px;
   border: 1px solid gray;
   border-radius: 10px;
+  margin-top: 20px;
 `;

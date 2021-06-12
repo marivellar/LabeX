@@ -7,8 +7,7 @@ const ListTripCard = (props) => {
     const history = useHistory();
 
     return <div>
-        <li key={props.tripId.id}>{props.tripName.name}</li>
-        <button onClick={()=>goToTripDetailsPage(history, props.tripId.id)}>DETALHES DA VIAGEM</button>
+        <li onClick={()=>goToTripDetailsPage(history, props.tripId.id)} key={props.tripId.id}>{props.tripName.name}</li>
     </div>
 }
 

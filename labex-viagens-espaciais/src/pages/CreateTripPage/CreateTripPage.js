@@ -39,7 +39,6 @@ const CreateTripPage = () => {
         axios.post(BASE_URL + "/trips", body, header(token), body)
         .then((response) => {
             history.push("/trip-list");
-            console.log(response)
             alert("Viagem criada com sucesso!");
         })
     }

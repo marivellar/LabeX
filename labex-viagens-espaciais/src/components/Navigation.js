@@ -1,7 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import { goToHomePage } from "../Routes/Coordinator";
+import { goToHomePage, goToPreviousPage } from "../Routes/Coordinator";
 import {useHistory} from "react-router-dom"
+
+//***** ESTILIZAÇÃO *****//
 
 const NavContainer = styled.div`
   width: 100%;
@@ -16,15 +18,17 @@ const NavContainer = styled.div`
 `;
 
 const NavButton = styled.button`
-  width: 20%;
+  width: 15%;
   height: 40px;
   font-size: 16px;
   margin-left: 20px;
   background-color: purple;
   color: white;
   text-decoration: none;
-  border-radius: 40px;
+  border-radius: 10px;
 `;
+
+//***** *** *****//
 
 const Navigation = () => {
   const history = useHistory()
