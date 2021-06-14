@@ -28,7 +28,10 @@ export const Input = styled.input`
 `;
 
 export const Select = styled.select`
-    background-color: whitesmoke; 
+    width: 100%;
+    background-color: whitesmoke;
+    height: 40px;
+    border-radius: 10px;
 `;
 
 export const Button = styled.button`

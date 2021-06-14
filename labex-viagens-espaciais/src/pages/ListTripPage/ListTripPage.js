@@ -32,7 +32,7 @@ const ListTripPage = () => {
         <ListTripContainer>
             <h1>Lista de Viagens</h1>
             
-            <li>{tripList}</li>
+            <div>{tripList}</div>
 
             <Button onClick={()=>goToCreateTripPage(history)}>CRIAR VIAGEM</Button>
         </ListTripContainer>

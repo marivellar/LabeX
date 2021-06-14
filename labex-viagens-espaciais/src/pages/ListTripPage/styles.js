@@ -8,10 +8,11 @@ export const ListTripContainer = styled.div`
 `;
 
 export const Button = styled.button`
-    width: 40%;
+    width: 60vw;
     height: 40px;
     border-radius: 5px;
     border: 1px solid gray;
-    background-color: whitesmoke;
-    color: purple;
+    background-color: purple;
+    color: whitesmoke;
+    margin: 10px;
 `;
