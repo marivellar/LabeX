@@ -4,7 +4,7 @@ import {BASE_URL} from "../../components/Requests";
 import {header} from "../../components/Requests";
 import useProtectedPage from "../../hooks/useProtectedPage";
 import { useParams } from "react-router-dom";
-import { TripDetailContainer, TripDetails } from "./styles";
+import { TripDetailContainer, TripDetails, Detail } from "./styles";
 
 
 const TripDetailsPage = () => {
@@ -28,11 +28,11 @@ const TripDetailsPage = () => {
             <h1>Detalhes da viagem</h1>
             
             <TripDetails>
-                <p>Data: {tripDetail.date}</p>
-                <p>Nome: {tripDetail.name}</p>
-                <p>Planeta: {tripDetail.planet}</p>
-                <p>Descrição: {tripDetail.description}</p>
-                <p>Duração: {tripDetail.durationInDays} dias</p>
+                <Detail>Data: {tripDetail.date}</Detail>
+                <Detail>Nome: {tripDetail.name}</Detail>
+                <Detail>Planeta: {tripDetail.planet}</Detail>
+                <Detail>Descrição: {tripDetail.description}</Detail>
+                <Detail>Duração: {tripDetail.durationInDays} dias</Detail>
             </TripDetails>
         </TripDetailContainer>
     )
