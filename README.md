@@ -6,11 +6,11 @@
 
 <h2 align="center"> Descrição do projeto </h2>
 
-<p align="center"> Aplicação desenvolvida em React com integração de API.</p>
+<p align="center"> Aplicação desenvolvida em React com integração de API. O programa permite que o usuário logado veja uma lista de viagens espaciais e seus detalhes. O usuário pode também se candidatar para uma viagem existente, através de um formulário integrado com a API.</p>
 
 <h2 align="center"> Deploy da Aplicação com Surge </h2>
 
-<p align="center"> ... </p>
+<p align="center"> https://gabby-silver.surge.sh/ </p>
 
 <h2 align="center"> Linguagens, Dependências e Libs Instaladas </h2>
 
